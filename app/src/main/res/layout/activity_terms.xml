@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".TermsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Main Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms &amp; Conditions"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last updated: August 21, 2025"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <!-- Acceptance of Terms -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Bellplay. By downloading, accessing, or using this mobile application, you agree to be bound by these Terms &amp; Conditions. If you do not agree with any part of these terms, you must not use this application."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="24dp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <!-- Content Usage Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content &amp; Services"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Local Media: Bellplay allows you to access and play audio files stored locally on your device. You are solely responsible for ensuring you have the legal right to access and play this content.\n\n2. Online Content: The 'Online' feature of this app utilizes the YouTube Android Player API. All content streamed through this feature is provided by YouTube and is subject to YouTube's own Terms of Service. Bellplay does not host or distribute any online content."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.4"
+            android:layout_marginBottom="24dp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <!-- User Conduct Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Conduct"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You agree not to use the app for any unlawful purpose or in any way that could damage, disable, or impair the service. You are responsible for all content you access through the app."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="24dp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <!-- Disclaimer Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disclaimer of Warranty"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This application is provided 'as is' without any warranties of any kind. We do not guarantee that the service will be uninterrupted or error-free."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="?android:attr/textColorPrimary" />
+
+    </LinearLayout>
+</ScrollView>

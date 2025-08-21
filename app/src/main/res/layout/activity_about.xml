@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- App Name and Version -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <!-- App Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bellplay is a modern, lightweight music player designed to give you a seamless listening experience. Enjoy your favorite local tracks and discover new music online, all in one beautiful and easy-to-use application."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <!-- Key Features Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key Features"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Play all your local MP3 files\n• Create a list of your favorite songs\n• Search and play music videos from YouTube\n• Clean, intuitive user interface\n• Full support for Light and Dark mode"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.4"
+            android:layout_marginBottom="32dp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <!-- Acknowledgements Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acknowledgements"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app utilizes the YouTube Android Player API to provide online music content."
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <!-- Thank You Note -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you for using Bellplay!"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="?android:attr/textColorSecondary" />
+
+    </LinearLayout>
+</ScrollView>

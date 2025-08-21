@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/song_album_art"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_music_note"
+        android:contentDescription="@string/album_art_thumbnail" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/song_title"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary" /> <!-- Changed from black -->
+
+        <TextView
+            android:id="@+id/song_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/artist_name"
+            android:textSize="14sp"
+            android:textColor="?android:attr/textColorSecondary"/> <!-- Changed from darker_gray -->
+    </LinearLayout>
+
+</LinearLayout>

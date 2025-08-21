@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bellplay</string>
+
+    <!-- Player Activity -->
+    <string name="album_art">Album Art</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="previous_song">Previous Song</string>
+    <string name="play_or_pause">Play or Pause</string>
+    <string name="next_song">Next Song</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+
+    <!-- List Item -->
+    <string name="album_art_thumbnail">Album art thumbnail</string>
+
+    <!-- Favorites Fragment -->
+    <string name="no_favorites_yet">No favorites yet!</string>
+
+    <!-- Menu Items (New) -->
+    <string name="search">Search</string>
+    <string name="account">Account</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="about">About</string>
+</resources>

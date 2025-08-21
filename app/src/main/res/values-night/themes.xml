@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Dark Mode. -->
+    <style name="Theme.Bellplay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color - Make it transparent -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.App.PopupMenu.Dark</item>
+    </style>
+
+    <style name="Widget.App.PopupMenu.Dark" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- This ensures the text is light on the dark background -->
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <!-- ... Theme.Bellplay.Splash for night remains the same ... -->
+    <style name="Theme.Bellplay.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
