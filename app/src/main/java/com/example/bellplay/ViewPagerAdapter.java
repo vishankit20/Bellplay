@@ -17,7 +17,9 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
     }
 
-    public void addFragment(Fragment fragment, String title) {
+    // Make sure this "Fragment" is the androidx version
+    public void addFragment(androidx.fragment.app.Fragment fragment, String title) {
+        // ... your implementation
         fragments.add(fragment);
         titles.add(title);
     }

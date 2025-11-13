@@ -1,6 +1,7 @@
 package com.example.bellplay;
 
 // Imports
+
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
@@ -18,6 +20,7 @@ import androidx.core.content.ContextCompat;
 import androidx.core.view.WindowCompat;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
+
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -69,7 +72,8 @@ public class MainActivity extends AppCompatActivity {
             public boolean onQueryTextSubmit(String query) {
                 Fragment currentFragment = viewPagerAdapter.getItem(viewPager.getCurrentItem());
                 if (currentFragment instanceof OnlineFragment) {
-                    ((OnlineFragment) currentFragment).searchYouTube(query);
+                    // REPLACE IT WITH THIS:
+                    ((OnlineFragment) currentFragment).searchJamendoTracks(query);
                 } else {
                     Toast.makeText(MainActivity.this, "Online search is only available in the Online tab.", Toast.LENGTH_SHORT).show();
                 }

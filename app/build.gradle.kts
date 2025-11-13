@@ -54,6 +54,19 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
     implementation ("com.android.volley:volley:1.2.1") // Add this line for networking
-    implementation ("com.github.bumptech.glide:glide:4.12.0") // Add this for loading images
-    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+    // For making API calls
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+
+// For converting JSON responses into Kotlin objects
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+// For logging API requests and responses (great for debugging)
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.15.1")
+    // For playing audio and managing media playback
+    implementation(libs.media3.exoplayer)
+    implementation(libs.media3.session)
+    implementation(libs.media3.ui)
+    implementation("androidx.media:media:1.7.0")
 }
